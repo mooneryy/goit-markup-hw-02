@@ -43,8 +43,7 @@ ol{
 }
 
 .navigation-link-item-name:hover,
-.navigation-link-item-name:focus
-.navigation-link-item-name:active{
+.navigation-link-item-name:focus{
     color: #404BBF;
 }
 
