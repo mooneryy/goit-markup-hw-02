@@ -129,9 +129,6 @@ ol{
 background-color: #F4F4FD;
 }
 
-.team-list{
-    background-color: #FFFFFF;
-}
 
 .team-section-title{
     color: #2E2F42;
@@ -144,6 +141,9 @@ background-color: #F4F4FD;
         text-transform: capitalize;
 }
 
+.team-list-item{
+    background-color: #FFFFFF;
+}
 
 .team-list-item-name{
     color: #2E2F42;
