@@ -126,6 +126,10 @@ ol{
 }
 
 .team-section{
+background-color: #F4F4FD;
+}
+
+.team-list{
     background-color: #FFFFFF;
 }
 
@@ -161,7 +165,7 @@ ol{
         letter-spacing: 0.02em;
 }
 
-.portfolio-section img {
+.portfolio-section{
     background-color: #FFFFFF;
 }
 
