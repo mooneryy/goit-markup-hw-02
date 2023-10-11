@@ -2,9 +2,6 @@ body{
     font-family: Roboto,
         sans-serif;
         color: #434455;
-        background: #FFF;
-        width: 1440px;
-        height: 3300px;
 }
 
 a{
@@ -17,9 +14,6 @@ ol{
 }
 
 .header-nav-bar{
-    width: 1440px;
-        height: 72px;
-        flex-shrink: 0;
     border-bottom: 1px solid #E7E9FC;
       background: #FFF;
        
@@ -27,62 +21,52 @@ ol{
 
 .logo-web {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-studio {
     color: #2E2F42;
-    width: 71px;
-}
-
-.navigation-list,
-.navigation-list-item,
-.navigation-list-item{
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.32px;
 }
 
 .navigation-link-item-name{
-    text-decoration: none;
     color: #2E2F42;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
+
 
 .address-list-item-name{
     color: #434455;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .hero-section{
     background: #2E2F42;
-    width: 1440px;
-        height: 600px;
-        flex-shrink: 0;
 }
 
 .hero-title{
     color:  #FFF;
         text-align: center;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
-        letter-spacing: 1.12px;
-        width: 496px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
 }
 
 .hero-button{
@@ -94,53 +78,51 @@ ol{
 
 .hero-button-name{
     color:  #FFF;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.64px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+}
+
+.benefits-section {
+    background: #FFF;
 }
 
 .benefits-list-item-name{
     color:  #2E2F42;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 
 .benefits-list-item-text{
     color:  #434455;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .team-section{
     background-color: #F4F4FD;
 }
 
-.team-list-item{
-border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
 .team-section-title{
     color: #2E2F42;
         text-align: center;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.72px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
@@ -148,12 +130,12 @@ border-radius: 0px 0px 4px 4px;
 .team-list-item-name{
     color: #2E2F42;
         text-align: center;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 
 .team-list-item-text{
@@ -163,8 +145,8 @@ border-radius: 0px 0px 4px 4px;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .portfolio-section{
@@ -174,12 +156,12 @@ border-radius: 0px 0px 4px 4px;
 .portfolio-section-title{
     color: #2E2F42;
         text-align: center;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.72px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
@@ -190,22 +172,22 @@ border-radius: 0px 0px 4px 4px;
 
 .portflio-list-item-name{
     color:  #2E2F42;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 
 .portflio-list-item-text{
     color: #434455;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 
@@ -215,21 +197,21 @@ border-radius: 0px 0px 4px 4px;
 
 .footer-logo-studio{
     color: #F4F4FD;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.54px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .footer-text{
     color:  #F4F4FD;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
