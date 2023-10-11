@@ -24,7 +24,7 @@ ol{
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -78,14 +78,10 @@ ol{
 }
 
 .hero-button{
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus{
-color: #404BBF;
-}
 
 .hero-button-name{
     color:  #FFFFFF;
@@ -94,6 +90,11 @@ color: #404BBF;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: #404BBF;
 }
 
 .benefits-section {
