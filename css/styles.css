@@ -2,6 +2,7 @@ body{
     font-family: Roboto,
         sans-serif;
         color: #434455;
+        background-color: #FFFFFF;
 }
 
 a{
@@ -14,7 +15,6 @@ ol{
 }
 
 .header-nav-bar{
-    border-bottom: 1px solid #E7E9FC;
       background: #FFFFFF;
        
 }
@@ -78,9 +78,7 @@ ol{
 }
 
 .hero-button{
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
@@ -172,7 +170,6 @@ color: #404BBF;
 }
 
 .portflio-list-item{
-    border: 1px solid #E7E9FC;
     background-color:  #FFFFFF;
 }
 
